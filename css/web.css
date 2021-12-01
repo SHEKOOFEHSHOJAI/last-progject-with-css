@@ -31,7 +31,20 @@ svg:hover{
  width: 100%;
  height: 30%;
 }
-article{
-  
-    background:center / contain no-repeat  url(/image/p2.jpg);
+ .shoping ,.card figure  article{
+ /* background: no-repeat center/80% url("/image/p2.jpg");*/
+} 
+
+.card{
+
+}
+
+main section .shoping{
+    width:100%
+ 
+
+}
+.card:nth-child(1){
+    background-color: #B07472;
+    font-size: 10px;
 }
