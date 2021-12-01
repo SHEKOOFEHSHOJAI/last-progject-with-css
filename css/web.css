@@ -31,11 +31,20 @@ svg:hover{
  width: 100%;
  height: 30%;
 }
- .shoping ,.card figure  article{
- /* background: no-repeat center/80% url("/image/p2.jpg");*/
-} 
 
-.card{
+ .shoping ,.card{
+ background: no-repeat url("/image/p2.jpg");
+ background-size: 60% 80%;
+ background-position: top;
+
+} 
+article{
+    display: flex;
+    justify-content: space-around;
+}
+.card-end{
+    display: flex;
+
 
 }
 
