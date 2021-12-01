@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+header nav{
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 1px 2px 9px 1px rgb(241, 234, 234);
+    height: 7vh;
+    align-items: center;
+}
+.nav-button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    
+}
+svg:hover{
+    cursor: pointer;
+    color: grb();
+}
+#header-button >a:active{
+    color:#B07472;
+
+}
+.slider img{
+ width: 100%;
+ height: 30%;
+}
+
+ .shoping ,.card{
+ background: no-repeat url("/image/p2.jpg");
+ background-size: 60% 80%;
+ background-position: top;
+
+} 
+article{
+    display: flex;
+    justify-content: space-around;
+}
+.card-end{
+    display: flex;
+
+
+}
+
+main section .shoping{
+    width:100%
+ 
+
+}
+.card:nth-child(1){
+    background-color: #B07472;
+    font-size: 10px;
+}
