@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration:none;
     font-family: 'Dancing Script', cursive;
     direction: rtl;
 }
@@ -18,7 +18,14 @@ header nav{
     align-items: center;
     justify-content: center;
     font-size: 12px;
+   background-color:white;
+   padding: 2px 3px;
+   border-radius: 7px;
+   
     
+}
+button > a{
+    text-decoration: none;
 }
 svg:hover{
     cursor: pointer;
@@ -33,7 +40,7 @@ svg:hover{
  height: 30%;
 }
 /* cards */
-.row{
+.continer-card {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
 }
@@ -72,7 +79,7 @@ article p:nth-last-of-type(1){
 .heart-p,.p-shooping{
     background-color: rgb(157, 167, 163);
   
-   width:40px;
+   width:35px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -88,7 +95,7 @@ article p:nth-last-of-type(1){
   
 .heart-p:hover{
       background-color: brown;
-        width: 80px;
+        width: 70px;
          border-radius:50px;
         
     
@@ -98,7 +105,7 @@ article p:nth-last-of-type(1){
     background-color: brown;
    border-radius:50px;
   
-     width: 80px;
+     width: 70px;
    
 }
 .p-shooping:hover a{
@@ -111,7 +118,7 @@ article p:nth-last-of-type(1){
 
 }
 .p-shooping{
-    margin: 0 20px;
+    margin-right: 10px;
    
 }
 .continer-heart-shooping a{
@@ -140,7 +147,7 @@ section .caption-card span{
 }
 .caption-card{
 
-   margin-top: 55%;
+   margin-top: 35%;
     
 }
 #haszfriha span{
@@ -149,4 +156,14 @@ section .caption-card span{
     margin-bottom: 20px;
     display: inline-block;
 
+}
+i{
+    cursor: pointer;
+}
+@media screen  and(max-whidth:"400px"){
+    .card{
+        width:100%;
+        background-color: yellow;
+    }
+    
 }
