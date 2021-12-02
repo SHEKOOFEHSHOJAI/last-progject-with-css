@@ -49,8 +49,8 @@ svg:hover{
  background: no-repeat url("/image/p2.jpg");
  background-size: 50% 50%;
  background-position: top;
- width: 13rem;
- height: 13rem;
+  /* width: 13rem; */
+ /*height: 13rem; */
  
 
 } 
@@ -135,7 +135,7 @@ main section .shoping{
 
 }
 .card{
-    box-shadow: 3px 2px 5px 3px #b8b4b3;
+    box-shadow: 1px 0px 2px 1px #b8b4b3;
       background-color: #B07472;
       font-size: 12px;
       margin-bottom: 7%;
@@ -160,10 +160,9 @@ section .caption-card span{
 i{
     cursor: pointer;
 }
-@media screen  and(max-whidth:"400px"){
-    .card{
-        width:100%;
-        background-color: yellow;
-    }
+ @media all and (max-width:400px) {
+   .card{
+      background-position: center;
+   }
     
-}
+} 
