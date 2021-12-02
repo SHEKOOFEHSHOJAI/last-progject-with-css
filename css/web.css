@@ -35,15 +35,16 @@ svg:hover{
 /* cards */
 .row{
     display: grid;
-    grid-template-columns: 4;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
 }
 
  section .card{
  background: no-repeat url("/image/p2.jpg");
- background-size: 70% 70%;
+ background-size: 50% 50%;
  background-position: top;
- width: 16rem;
- height: 16rem;
+ width: 13rem;
+ height: 13rem;
+ 
 
 } 
 article{
@@ -130,6 +131,7 @@ main section .shoping{
     box-shadow: 3px 2px 5px 3px #b8b4b3;
       background-color: #B07472;
       font-size: 12px;
+      margin-bottom: 7%;
 }
 section .caption-card span{
    display: flex;
@@ -140,4 +142,11 @@ section .caption-card span{
 
    margin-top: 55%;
     
+}
+#haszfriha span{
+    border-bottom: 5px solid red;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: inline-block;
+
 }
