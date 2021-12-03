@@ -24,13 +24,25 @@ header nav{
    
     
 }
+
+.nav-button button:hover{
+     box-shadow: 1px 0px 4px 1px #b8b4b3,1px 3px 1px#B07472;
+}
 button > a{
     text-decoration: none;
 }
-svg:hover{
-    cursor: pointer;
-   
+.nav-icon > svg{
+    transition: width 3ms , height 3ms;
 }
+.nav-icon > svg:hover{
+
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    color: #B07472;
+}
+
+
 #header-button >a:active{
     color:#B07472;
 
@@ -43,6 +55,7 @@ svg:hover{
 .continer-card {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    
 }
 
  section .card{
@@ -51,9 +64,16 @@ svg:hover{
  background-position: top;
   /* width: 13rem; */
  /*height: 13rem; */
+ margin: 7%;
+ transition:transform 1s;
  
 
 } 
+section .card:hover{
+    transform: scale(1.1);
+    
+  
+}
 article{
     display: flex;
     justify-content: space-around;
@@ -79,7 +99,7 @@ article p:nth-last-of-type(1){
 .heart-p,.p-shooping{
     background-color: rgb(157, 167, 163);
   
-   width:35px;
+   width:30px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -95,8 +115,9 @@ article p:nth-last-of-type(1){
   
 .heart-p:hover{
       background-color: brown;
-        width: 70px;
+        width: 60px;
          border-radius:50px;
+         padding: 5px 2px;
         
     
 }
@@ -104,8 +125,10 @@ article p:nth-last-of-type(1){
    
     background-color: brown;
    border-radius:50px;
+   padding: 5px 2px;
   
-     width: 70px;
+     width: 60px;
+   
    
 }
 .p-shooping:hover a{
@@ -114,6 +137,7 @@ article p:nth-last-of-type(1){
 }
 .heart-p:hover a{
      display: block;
+    
      margin-left: 12px;
 
 }
@@ -136,9 +160,9 @@ main section .shoping{
 }
 .card{
     box-shadow: 1px 0px 2px 1px #b8b4b3;
-      background-color: #B07472;
+      /* background-color: #B07472; */
       font-size: 12px;
-      margin-bottom: 7%;
+      /* margin-bottom: 7%; */
 }
 section .caption-card span{
    display: flex;
@@ -151,8 +175,8 @@ section .caption-card span{
     
 }
 #haszfriha span{
-    border-bottom: 5px solid red;
-    border-radius: 3px;
+    border-bottom: 2px solid red;
+   
     margin-bottom: 20px;
     display: inline-block;
 
@@ -161,8 +185,12 @@ i{
     cursor: pointer;
 }
  @media (max-width:400px) {
-   .card{
-      background-position: center;
+   .card {
+      /* background-position: center; */
+      background-color: red;
+   }
+   .star{
+       font-size: 1rem;
    }
     
 } 
