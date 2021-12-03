@@ -76,7 +76,8 @@ section .card:hover{
 }
 article{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 4%;
   
 }
 article p:nth-last-of-type(1){
@@ -88,11 +89,12 @@ article p:nth-last-of-type(1){
 .card-end{
     display: flex;
     justify-content:space-around;
-    flex-basis: 20px;
+   
     
 
 
 }
+
 .card-end section{
     display: flex;
 }
@@ -185,10 +187,7 @@ i{
     cursor: pointer;
 }
  @media (max-width:400px) {
-   .card {
-      /* background-position: center; */
-      background-color: red;
-   }
+  
    .star{
        font-size: 1rem;
    }
